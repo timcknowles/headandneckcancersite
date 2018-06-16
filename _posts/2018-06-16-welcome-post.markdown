@@ -1,7 +1,8 @@
 ---
+title: test
 layout: default
-categories: jekyll update
-tags: oral-cavity
+tags: early
+category: [oral_cavity]
 ---
 
 <table class="table table-dark">
