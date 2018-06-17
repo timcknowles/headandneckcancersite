@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-tag: oral-cavity
-permalink: /tags/early/ # This is only required for pretty links.
+tag: oropharynx
+permalink: /tags/oropharynx/ # This is only required for pretty links.
 ---
