@@ -10,7 +10,7 @@ layout: default
 
 <!-- We're going to give each page a tag when we create it.
 This will be the title -->
-<h1>{{ page.category | capitalize }}</h1>
+<h1 class="text-primary">{{ page.category | capitalize }}</h1>
 
 <div id="accordion">
   <div class="card">
@@ -36,6 +36,7 @@ This will be the title -->
               {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
           </li>
           {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

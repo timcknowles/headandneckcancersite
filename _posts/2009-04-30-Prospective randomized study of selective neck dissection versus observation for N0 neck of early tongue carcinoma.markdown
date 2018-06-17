@@ -5,7 +5,7 @@ tags: early
 category: oral cavity
 ---
 
-<table class="table table-dark">
+<table class="table">
     <tbody>
         <tr>
             <td>
