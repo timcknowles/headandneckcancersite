@@ -5,4 +5,11 @@ sass:
 
 exclude: []
 
-baseurl: "/headandneckcancersite" 
+baseurl: "/headandneckcancersite"
+
+
+
+# Social icons
+show_social_icons: true
+github_username: timcknowles
+twitter_username: knowlesarian
