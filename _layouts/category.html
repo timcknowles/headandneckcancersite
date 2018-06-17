@@ -3,21 +3,9 @@ layout: default
 ---
 
 
-{% assign sorted-posts = site.categories[page.category]| where: "tags","early" %}
-{% for post in sorted-posts %}
 
-<li>
-    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
 
-{% assign sorted-posts = site.categories[page.category]| where: "tags","advanced" %}
-{% for post in sorted-posts %}
 
-<li>
-    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
 
 
 <!-- We're going to give each page a tag when we create it.
@@ -41,14 +29,13 @@ This will be the title -->
         <ul>
 
 
-            {% assign sorted-posts = site.posts | where: "tags","early" %}
-            {% for post in sorted-posts %}
+          {% assign sorted-posts = site.categories[page.category]| where: "tags","early" %}
+          {% for post in sorted-posts %}
 
-            <li>
-                {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-            </li>
-
-            {% endfor %}
+          <li>
+              {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
       </div>
     </div>
   </div>
@@ -65,14 +52,13 @@ This will be the title -->
 
 
         <ul>
-            {% assign sorted-posts = site.posts | where: "tags","advanced" %}
-            {% for post in sorted-posts %}
+          {% assign sorted-posts = site.categories[page.category]| where: "tags","advanced" %}
+          {% for post in sorted-posts %}
 
-            <li>
-                {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-            </li>
-
-            {% endfor %}
+          <li>
+              {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
       </div>
     </div>
   </div>
