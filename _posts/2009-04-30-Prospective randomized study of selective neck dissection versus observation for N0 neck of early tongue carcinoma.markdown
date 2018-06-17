@@ -1,8 +1,8 @@
 ---
-title: test
+title: Prospective randomized study of selective neck dissection versus observation for N0 neck of early tongue carcinoma
 layout: default
 tags: early
-category: [oral_cavity]
+category: oral cavity
 ---
 
 <table class="table table-dark">
