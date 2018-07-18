@@ -13,3 +13,41 @@ baseurl: ""
 show_social_icons: true
 github_username: timcknowles
 twitter_username: knowlesarian
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'www.headandnecktrials.com/'
+  relativeLinks: 'www.headandnecktrials.com/links.jsonp'
+  media: 'media'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Early"
+              value: "Early"
+            - name: "Advanced"
+              value: "Advanced"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Oral Cavity"
+              value: "Oral Cavity"
+            - name: "Pharynx"
+              value: "Pharynx"
