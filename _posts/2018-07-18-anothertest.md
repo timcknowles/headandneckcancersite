@@ -1,8 +1,6 @@
 ---
 layout: default
 published: true
-tags:
-  - Early
 categories:
   - oral cavity
 ---
