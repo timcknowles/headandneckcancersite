@@ -41,7 +41,7 @@ prose:
               value: "Early"
             - name: "Advanced"
               value: "Advanced"
-      - name: "categories"
+      - name: "category"
         field:
           element: "multiselect"
           label: "Add anatomical site"
