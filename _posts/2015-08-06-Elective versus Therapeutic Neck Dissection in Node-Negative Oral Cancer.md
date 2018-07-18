@@ -3,6 +3,7 @@ title: Elective versus Therapeutic Neck Dissection in Node-Negative Oral Cancer
 layout: default
 tags: early
 category: oral cavity
+published: true
 ---
 
 
@@ -196,7 +197,7 @@ category: oral cavity
             </td>
             <td width="294" valign="top">
                 <p>
-                    https://www.nejm.org/doi/full/10.1056/nejmoa1506007
+                    [https://www.nejm.org/doi/full/10.1056/nejmoa1506007]()
                 </p>
             </td>
         </tr>
