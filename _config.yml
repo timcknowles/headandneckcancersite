@@ -44,10 +44,10 @@ prose:
       - name: "categories"
         field:
           element: "multiselect"
-          label: "Add Category"
-          placeholder: "Choose Category"
+          label: "Add anatomical site"
+          placeholder: "Choose site"
           options:
             - name: "Oral Cavity"
-              value: "Oral Cavity"
+              value: "oral cavity"
             - name: "Pharynx"
-              value: "Pharynx"
+              value: "pharynx"
