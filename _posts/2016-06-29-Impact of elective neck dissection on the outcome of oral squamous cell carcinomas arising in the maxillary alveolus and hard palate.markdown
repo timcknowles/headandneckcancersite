@@ -7,7 +7,7 @@ category: [oral cavity]
 
 <table class="table">
 
-<table border="0" cellspacing="0" cellpadding="0">
+
     <tbody>
         <tr>
             <td width="131" valign="top">
