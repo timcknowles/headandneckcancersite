@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ---
 title: Immediate Microsurgical Reconstruction After Tumor Ablation Predicts Survival Among Patients with Head and Neck Carcinoma
