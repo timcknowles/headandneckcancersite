@@ -38,9 +38,9 @@ prose:
           placeholder: "Choose Tags"
           options:
             - name: "Early"
-              value: "Early"
+              value: "early"
             - name: "Advanced"
-              value: "Advanced"
+              value: "advanced"
       - name: "category"
         field:
           element: "multiselect"

@@ -1,10 +1,9 @@
 ---
 layout: default
 published: true
-categories:
-  - oral cavity
+
 tags:
-  - Early
+  - early
 category:
   - oral cavity
 ---
