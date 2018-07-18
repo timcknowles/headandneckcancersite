@@ -4,7 +4,7 @@ published: true
 tags:
   - Early
 categories:
-  - Oral Cavity
+  - oral cavity
 ---
 ## A New Post
 
