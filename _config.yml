@@ -58,5 +58,4 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Article title"
-          help: "yyyy-mm-dd-title"
+          label: "Article title format = yyyy-mm-dd-title"
