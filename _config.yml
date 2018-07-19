@@ -34,8 +34,8 @@ prose:
       - name: "tags"
         field:
           element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          label: "Add stage"
+          placeholder: "stage"
           options:
             - name: "Early"
               value: "early"
@@ -55,4 +55,9 @@ prose:
               value: "hypopharynx"
             - name: "oropharnyx"
               value: "oropharnyx"
-    
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
