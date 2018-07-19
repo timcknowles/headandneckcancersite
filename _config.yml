@@ -55,11 +55,6 @@ prose:
               value: "hypopharynx"
             - name: "oropharnyx"
               value: "oropharnyx"
-      - name: "permalink"
-          field:
-            element: "text"
-            label: "Permalink"
-            value: ""
       - draft:
         field:
           element: "checkbox"
