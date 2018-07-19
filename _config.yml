@@ -55,9 +55,4 @@ prose:
               value: "hypopharynx"
             - name: "oropharnyx"
               value: "oropharnyx"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Article title format = yyyy-mm-dd-title"
-          placeholder: "Title"
-          alterable: true
+    
