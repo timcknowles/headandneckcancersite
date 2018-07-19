@@ -55,9 +55,14 @@ prose:
               value: "hypopharynx"
             - name: "oropharnyx"
               value: "oropharnyx"
-      - name: "title"
+      - name: "permalink"
+          field:
+            element: "text"
+            label: "Permalink"
+            value: ""
+      - draft:
         field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
+          element: "checkbox"
+          label: "Publish"
+          help: "Unpublish or publish"
+          value: true
